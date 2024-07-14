@@ -4,8 +4,8 @@ t = n;
 i = p;
 
 while 1
-    v = 2:i;
-    if sum(mod(i, v) == 0) == 1
+    v = 2:i-1;
+    if sum(mod(i, v) == 0) == 0
         p = i;
         while 1
             if (t == 1) || (mod(t, i) ~= 0)
