@@ -11,7 +11,7 @@ while 1
         end
         b = b + 1;
     end
-    if (a + b + c == 1000) && (a < b) && (b < c)
+    if (a + b + c == 1000) && (a < b) && (b < c) %(a < b) no hace falta.
         v = a*b*c;
         break;
     elseif a == 1000
