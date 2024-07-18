@@ -9,7 +9,6 @@ for i = 1:1:strlength(num)-n+1
     for j = 1:1:strlength(v)
         p = p * str2num(v(j));
     end
-    disp(p);
     if p > p0
         v0 = v; %str2num(v);
         p0 = p;
